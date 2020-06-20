@@ -26,7 +26,7 @@ class App(QWidget):
         self.center()
         # 创建选项
 
-        self.rb1 = QRadioButton('布尔检索(不提供词语矫正)')
+        self.rb1 = QRadioButton('布尔检索')
         self.rb2 = QRadioButton('向量空间检索')
         self.rb3 = QRadioButton('BM25')
         self.rb4 = QRadioButton("短语查询")
